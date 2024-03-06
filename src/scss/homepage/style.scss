@@ -1,0 +1,77 @@
+@import './../_commom/header';
+@import './../_commom/variable';
+
+.py-6{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.border-gradient {
+    border-radius: 20px;
+    border: 1px solid transparent;
+    border-color: $border-blue;
+    &--white{
+        border-color: white;
+    }
+}
+.custom-color--zero{
+    &::placeholder{
+        color:rgba(255, 255, 255, 1);
+    }
+}
+.custom-color {
+    &::placeholder{
+        color: rgba(94, 100, 122, 1);
+    }
+    border-style: none;
+    background-color:$dark-gray; 
+    color: rgba(94, 100, 122, 1); 
+    &:focus{
+        border-style: none;
+    background-color:$dark-gray; 
+    color: rgba(94, 100, 122, 1);
+    }
+    &--{
+        background-color: none;
+    }
+}
+.bg-img{
+    border-radius: 50px 15px 20px 15px;
+    background-repeat: no-repeat;
+    height: 628px;
+    background: linear-gradient(237deg, rgba(83, 95, 230, 0.9) 0%, rgba(32, 193, 207, 0.9) 50%, rgba(83, 95, 230, 0.9) 100%), url(./../../../assets/img/image\ 2.png);
+    background-size: cover; 
+    background-position: center; 
+}
+.px-6{
+    padding-left: 64px;
+    padding-right: 64px;
+}
+.btn-custom{
+    width: 284px;
+    height: 76px;
+    border-radius: 35px;
+}
+.col-6{
+    &--mar{
+        padding: -20px;
+    }
+}
+.footer-bg{
+    background-color: $dark-gray-secondary;
+    .footer-img{
+        padding-top: 60px;
+        img{
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            overflow-x: hidden;
+        }
+    }
+}
+.mb-6{
+    margin-bottom: 64px;
+}
+.custom-text{
+    color: $border-blue;
+}
